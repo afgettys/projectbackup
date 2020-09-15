@@ -1,0 +1,14 @@
+.card-header {
+  font-size: 20px;
+  font-family: flegrei, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EF444E;
+  background-color: #242C42;
+}
+
+.card-body {
+  font-family: museo-slab, serif;
+  font-weight: 300;
+  font-style: normal;
+}

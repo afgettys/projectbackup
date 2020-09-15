@@ -1,0 +1,36 @@
+{
+  "name": "project-3",
+  "version": "1.0.0",
+  "description": "A React-based Google Books Search that displays books on user searches.  Search for books using the Google Books API by typing in a title and clicking on \"Search\". The user can view the book which will bring them to the page on Google Books by clicking \"View\" in the results for the search. Click \"Save\" to save the book to the database.",
+  "engines": {
+    "npm": "6.9.0",
+    "node": "11.10.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.18.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^7.19.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.10.5",
+    "react-router-dom": "^5.2.0"
+  }
+}

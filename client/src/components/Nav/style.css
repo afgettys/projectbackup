@@ -1,0 +1,17 @@
+.navbar {
+  border-radius: 0;
+  height: 80px;
+  background-color: #EF444E;
+}
+
+.nav-item :any-link {
+  font-size: 20px;
+  font-family: museo-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #242C42;
+}
+
+.nav-item :hover {
+  color: #ffffff;
+}

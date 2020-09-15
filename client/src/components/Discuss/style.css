@@ -1,0 +1,8 @@
+.jumbotron {
+  background-image: url(discuss.png);
+  height: 350px;
+}
+
+img {
+  display: block; 
+}

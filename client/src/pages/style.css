@@ -1,0 +1,62 @@
+label {
+  font-size: 30px;
+  font-family: flegrei, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #242C42;
+}
+
+.card-body {
+  font-family: museo-slab, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.btn {
+  background-color: #EF444E;
+  color: white;
+}
+
+#post {
+  background-color: #242C42;
+  color: white;
+}
+#link {
+  color: white;
+}
+
+#text {
+  color: #242C42;
+  font-family: museo-slab, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+#text-or {
+  font-size: 30px;
+  font-family: flegrei, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #242C42;
+}
+
+#discuss {
+  font-size: 30px;
+  font-family: flegrei, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EF444E;
+}
+
+#reset {
+  font-size: 50px;
+  font-family: flegrei, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #242C42;
+  color: #EF444E;
+
+}
+
+
